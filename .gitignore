@@ -1,0 +1,10 @@
+node_modules/
+dist/
+out/
+*.exe
+*.dll
+*.msi
+*.zip
+*.7z
+*.log
+*.env

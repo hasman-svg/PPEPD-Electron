@@ -1,0 +1,26 @@
+{
+  "name": "panduan-perencanaan",
+  "author": "Hasman",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^39.2.1",
+    "electron-builder": "^26.0.12"
+  },
+  "build": {
+    "icon": "build/icon.ico",
+    "appId": "com.ppepdmateng.app",
+    "artifactName": "Panduan Perencanaan.exe",
+    "win": {
+      "target": "nsis"
+    }
+  },
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "type": "commonjs"
+}
